@@ -2,7 +2,7 @@ package Cuentas;
 
 public class CCuenta {
 
-    private String nombre;
+    private String denominacion;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
@@ -13,7 +13,7 @@ public class CCuenta {
 
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
-        nombre =nom;
+        denominacion =nom;
         cuenta=cue;
         saldo=sal;
     }
@@ -40,17 +40,17 @@ public class CCuenta {
     }
     
     /**
-     * @return the nombre
+     * @return the denominacion
      */
-    public String getNombre() {
-        return nombre;
+    public String getDenominacion() {
+        return denominacion;
     }
 
     /**
-     * @param nombre the nombre to set
+     * @param denominacion the denominacion to set
      */
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setDenominacion(String denominacion) {
+        this.denominacion = denominacion;
     }
 
     /**
