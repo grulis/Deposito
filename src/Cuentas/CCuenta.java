@@ -1,17 +1,29 @@
 package Cuentas;
+
 /**
  * Clase que nos permite obtener objetos del tipo cuenta
  * @author Florencio Atienza Martinez 1ºDAM CIDEAD
  */
 public class CCuenta {
     
-/** denominacion. Variable para manejar el nombre */
-    private String denominacion;    
-/** cuenta. Variable para almacenar la cuenta */  
+/** 
+ * Atributo denominacion. Variable para manejar el nombre 
+ */
+    private String denominacion;
+    
+/** 
+ * Atributo cuenta. Variable para almacenar la cuenta 
+ */  
     private String cuenta;
-/** saldo. Variable para almacenar el saldo */   
+    
+/**
+ * Atributo saldo. Variable para almacenar el saldo 
+ */   
     private double saldo;
-/** tipoInteres. Variable que contiene el tipo de interes */    
+    
+/**
+ * Atributo tipoInteres. Variable que contiene el tipo de interes 
+ */    
     private double tipoInterés;     
 
     /**
