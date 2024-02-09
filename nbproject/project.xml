@@ -6,6 +6,7 @@
             <name>Entorno_Tarea4</name>
             <source-roots>
                 <root id="src.dir"/>
+                <root id="src.dist.dir" name="Documentacion Javadoc"/>
             </source-roots>
             <test-roots>
                 <root id="test.src.dir"/>
