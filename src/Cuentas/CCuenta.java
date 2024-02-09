@@ -35,10 +35,10 @@ public class CCuenta {
     
     /**
      * Metodo Constructor de la clase CCuenta con 4 argumentos
-     * @param nom
-     * @param cue
-     * @param sal
-     * @param tipo 
+     * @param nom argumento que pasa el nombre del propietario de la cuenta
+     * @param cue argumento que pasa el numero de cuenta
+     * @param sal argumento que pasa el saldo de la cuenta
+     * @param tipo argumento que pasa el tipo de interes de la cuenta
      */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
@@ -59,8 +59,8 @@ public class CCuenta {
     /**
      * Metodo que nos permite ingresar una cantidad concreta de dinero pasada
      * por parametro en la cuenta.
-     * @param cantidad
-     * @throws Exception 
+     * @param cantidad argumento que nos permite pasar el importe a ingresar
+     * @throws Exception no son posibles ingresos negativos
      */
     public void ingresar(double cantidad) throws Exception
     {
@@ -72,8 +72,8 @@ public class CCuenta {
     /**
      * Metodo que nos permite retirar una cantidad concreta de dinero pasada por
      * argumento de la cuenta.
-     * @param cantidad
-     * @throws Exception 
+     * @param cantidad argumento que nos permite pasar el importe a retirar
+     * @throws Exception error si se ingresa una cantidad negativa o si no hay saldo
      */
     public void retirar(double cantidad) throws Exception
     {
